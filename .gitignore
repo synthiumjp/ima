@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Data (downloaded, don't track)
+data/
+
+# Model checkpoints (large files)
+checkpoints/
+
+# Results (generated)
+results/
+
+# Reference repos (cloned separately)
+reference/
+
+# ROCm/MIOpen cache
+.miopen/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,12 @@
+# IMA Project Dependencies
+# PyTorch ROCm — install separately via:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.2
+# (or whichever ROCm version matches your installation)
+
+numpy>=1.24
+scikit-learn>=1.3
+tqdm>=4.65
+torchvision>=0.16
+
+# Optional (for M-ratio / meta-d')
+metadpy>=0.3
