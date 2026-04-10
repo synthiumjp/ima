@@ -27,3 +27,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Model checkpoints (use external storage for these)
+*.pt
+*.pth
+
